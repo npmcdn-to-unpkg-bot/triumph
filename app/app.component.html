@@ -1,0 +1,21 @@
+<div class="navbar">
+  <a class="brand" href="/">
+    <img src="app/triumph.png" alt="Triumph" width="250" height="40" class="logo">
+  </a>
+  <ul class="nav pull-right">
+    <li>
+      <a [routerLink]="['Dashboard']">Dashboard</a>
+    </li>
+    <li>
+      <a [routerLink]="['Decks']">Decks</a>
+    </li>
+    <li>
+      <a [routerLink]="['Gameroom']">Gameroom</a>
+    </li>
+    <li>
+      <a [routerLink]="['Account']">Account</a>
+    </li>
+  </ul>
+</div>
+
+<router-outlet></router-outlet>
