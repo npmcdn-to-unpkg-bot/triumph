@@ -1,5 +1,6 @@
 <div class="">
 <h2>Decks</h2>
-<p>Edit decks here</p>
-<p>Come on in and playtest now!</p>
+<p>Current Deck: {{deck.name}}</p>
+<button (click)="draw()"></button>
+<p *ngIf="card">You drew: {{card}}</p>
 </div>
