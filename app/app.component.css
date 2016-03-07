@@ -1,5 +1,9 @@
 /* Generic Styles */
 
+.main {
+  margin: 10px 20px;
+}
+
 a {
   font-family: Verdana;
 }

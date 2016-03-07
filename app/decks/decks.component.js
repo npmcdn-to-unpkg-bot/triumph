@@ -11,7 +11,7 @@ System.register(['angular2/core', 'angular2/router'], function(exports_1, contex
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1, router_1;
-    var DashboardComponent;
+    var DecksComponent;
     return {
         setters:[
             function (core_1_1) {
@@ -21,22 +21,22 @@ System.register(['angular2/core', 'angular2/router'], function(exports_1, contex
                 router_1 = router_1_1;
             }],
         execute: function() {
-            DashboardComponent = (function () {
-                function DashboardComponent(_router) {
+            DecksComponent = (function () {
+                function DecksComponent(_router) {
                     this._router = _router;
                 }
-                DashboardComponent = __decorate([
+                DecksComponent = __decorate([
                     core_1.Component({
-                        selector: 'dashboard',
-                        templateUrl: 'app/dashboard/dashboard.component.html',
-                        styleUrls: ['app/dashboard/dashboard.component.css']
+                        selector: 'decks',
+                        templateUrl: 'app/decks/decks.component.html',
+                        styleUrls: ['app/decks/decks.component.css']
                     }), 
                     __metadata('design:paramtypes', [router_1.Router])
-                ], DashboardComponent);
-                return DashboardComponent;
+                ], DecksComponent);
+                return DecksComponent;
             }());
-            exports_1("DashboardComponent", DashboardComponent);
+            exports_1("DecksComponent", DecksComponent);
         }
     }
 });
-//# sourceMappingURL=dashboard.component.js.map
+//# sourceMappingURL=decks.component.js.map
